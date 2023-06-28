@@ -7,9 +7,9 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
 import org.cris.preference.acl.service.RoleService;
-import org.cris.preference.model.acl.Role;
-import org.cris.preference.result.Result;
-import org.cris.preference.vo.acl.RoleQueryVo;
+import org.cris.preference.entity.model.acl.Role;
+import org.cris.preference.serviceUtil.result.Result;
+import org.cris.preference.entity.vo.acl.RoleQueryVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

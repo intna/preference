@@ -1,12 +1,14 @@
 package org.cris.preference.acl.controller;
 
+import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.*;
-import org.cris.preference.result.Result;
+import org.cris.preference.serviceUtil.result.Result;
 import java.util.HashMap;
 import java.util.Map;
 
 @RestController
 @RequestMapping("/admin/acl/index")
+@Api(tags = "登录页")
 public class IndexController {
 
     @PostMapping("login")
